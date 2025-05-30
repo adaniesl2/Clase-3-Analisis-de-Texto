@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Título y descripción
-st.title("📝 Analizador de Texto con TextBlob")
+st.title("📱 Analizador de Texto con TextBlob")
 st.markdown("""
 Esta aplicación utiliza TextBlob para realizar un análisis básico de texto:
 - Análisis de sentimiento y subjetividad
