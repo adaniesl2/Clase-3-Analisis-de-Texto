@@ -28,7 +28,7 @@ st.image(image, width=350)
 st.sidebar.title("Configuración de Rotom")
 modo = st.sidebar.selectbox(
     "Selecciona el modo de entrada:",
-    ["Texto directo", "Archivo de texto"]
+    ["🎛️ Texto directo", "🗄️ Archivo de texto"]
 )
 
 # Función para contar palabras sin depender de NLTK
