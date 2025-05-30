@@ -220,7 +220,7 @@ def crear_visualizaciones(resultados):
         st.write("No se detectaron frases.")
 
 # Lógica principal según el modo seleccionado
-if modo == "Texto directo":
+if modo == "🎛️ Texto directo":
     st.subheader("Rotom quiere ver qué le vas a decir")
     texto = st.text_area("", height=200, placeholder="Escribe o pega aquí el texto que deseas que analice Rotom...")
     
@@ -232,7 +232,7 @@ if modo == "Texto directo":
         else:
             st.warning("Por favor, ingresa algún texto para analizar.")
 
-elif modo == "Archivo de texto":
+elif modo == "🗄️ Archivo de texto":
     st.subheader("Carga un archivo de texto")
     archivo = st.file_uploader("", type=["txt", "csv", "md"])
     
