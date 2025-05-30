@@ -267,7 +267,8 @@ with st.expander("📚 Información sobre el análisis de Rotom"):
     ```
     
     ### Sobre Rotom
-    Con su cuerpo eléctrico puede infiltrarse en algunos aparatos para controlarlos y hacer travesuras. Desde hace mucho tiempo se estudia como fuente de energía motriz para un motor especial. - Pokédex
+    Con su cuerpo eléctrico puede infiltrarse en algunos aparatos para controlarlos y hacer travesuras. 
+    Desde hace mucho tiempo se estudia como fuente de energía motriz para un motor especial. - Pokédex
     """)
 
 # Pie de página
