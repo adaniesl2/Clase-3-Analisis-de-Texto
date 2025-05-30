@@ -21,7 +21,7 @@ Esta aplicación utiliza TextBlob para realizar un análisis básico de texto:
 - Análisis de frecuencia de palabras
 """)
 
-image = Image.open('Rotom.jpeg')
+image = Image.open('Rotom.jpg')
 st.image(image, width=350)
 
 # Barra lateral
