@@ -265,6 +265,9 @@ with st.expander("📚 Información sobre el análisis de Rotom"):
     textblob
     pandas
     ```
+    
+    ### Sobre Rotom
+    Con su cuerpo eléctrico puede infiltrarse en algunos aparatos para controlarlos y hacer travesuras. - Pokédex
     """)
 
 # Pie de página
