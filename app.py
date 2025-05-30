@@ -3,6 +3,7 @@ import pandas as pd
 from textblob import TextBlob
 import re
 from googletrans import Translator
+from PIL import Image
 
 # Configuración de la página
 st.set_page_config(
@@ -19,6 +20,9 @@ Esta aplicación utiliza TextBlob para realizar un análisis básico de texto:
 - Extracción de palabras clave
 - Análisis de frecuencia de palabras
 """)
+
+image = Image.open('Rotom.jpeg')
+st.image(image, width=350)
 
 # Barra lateral
 st.sidebar.title("Opciones")
