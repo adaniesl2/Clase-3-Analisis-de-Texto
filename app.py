@@ -8,14 +8,14 @@ from PIL import Image
 # Configuración de la página
 st.set_page_config(
     page_title="Analizador de Texto Simple",
-    page_icon="📊",
+    page_icon="⚡",
     layout="wide"
 )
 
 # Título y descripción
 st.title("📱 Analizador de Texto con TextBlob")
 st.markdown("""
-Esta aplicación utiliza TextBlob para realizar un análisis básico de texto:
+Rotom utilizará TextBlob para realizar un análisis básico de texto:
 - Análisis de sentimiento y subjetividad
 - Extracción de palabras clave
 - Análisis de frecuencia de palabras
@@ -25,7 +25,7 @@ image = Image.open('Rotom.jpg')
 st.image(image, width=350)
 
 # Barra lateral
-st.sidebar.title("Opciones")
+st.sidebar.title("Configuración de Rotom")
 modo = st.sidebar.selectbox(
     "Selecciona el modo de entrada:",
     ["Texto directo", "Archivo de texto"]
@@ -221,12 +221,12 @@ def crear_visualizaciones(resultados):
 
 # Lógica principal según el modo seleccionado
 if modo == "Texto directo":
-    st.subheader("Ingresa tu texto para analizar")
-    texto = st.text_area("", height=200, placeholder="Escribe o pega aquí el texto que deseas analizar...")
+    st.subheader("Rotom quiere ver qué le vas a decir")
+    texto = st.text_area("", height=200, placeholder="Escribe o pega aquí el texto que deseas que analice Rotom...")
     
-    if st.button("Analizar texto"):
+    if st.button("Rotom, analiza esto por favor"):
         if texto.strip():
-            with st.spinner("Analizando texto..."):
+            with st.spinner("⚡ Rotom está analizando el texto..."):
                 resultados = procesar_texto(texto)
                 crear_visualizaciones(resultados)
         else:
@@ -250,7 +250,7 @@ elif modo == "Archivo de texto":
             st.error(f"Error al procesar el archivo: {e}")
 
 # Información adicional
-with st.expander("📚 Información sobre el análisis"):
+with st.expander("📚 Información sobre el análisis de Rotom"):
     st.markdown("""
     ### Sobre el análisis de texto
     
